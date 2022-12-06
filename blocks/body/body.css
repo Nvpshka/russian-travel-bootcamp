@@ -7,21 +7,21 @@
 }
 @media (max-width: 1183px) {
 	.lead{
-		max-width: 100vw;
+		max-width: 100%;
 	}
 }
 @media (max-width: 1024px) {
 	.lead{
-		max-width: 100vw;
+		max-width: 100%;
 	}
 }
 @media (max-width: 768px) {
 	.lead{
-		max-width: 100vw;
+		max-width: 100%;
 	}
 }
 @media (max-width: 320px) {
 	.lead{
-		max-width: 100vw;
+		max-width: 100%;
 	}
 }
