@@ -12,5 +12,7 @@
 @media (max-width: 320px) {
 	.places{
 		margin-top:64px;
+		max-width: 320px;
+		box-sizing: border-box;
 	}
 }
