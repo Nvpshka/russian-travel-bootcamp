@@ -8,6 +8,7 @@
 	margin-bottom: 92px;
 	position: relative;
 	z-index: 1;
+	width: 100%;
 }
 .cover__link::before{
 	content: '';

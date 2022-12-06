@@ -3,4 +3,25 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	max-width: calc(1280 - 148 * 2);
+}
+@media (max-width: 1183px) {
+	.lead{
+		max-width: calc(100vw - 148*2);
+	}
+}
+@media (max-width: 1024px) {
+	.lead{
+		max-width: calc(100vw - 48 * 2);
+	}
+}
+@media (max-width: 768px) {
+	.lead{
+		max-width: 100vw;
+	}
+}
+@media (max-width: 320px) {
+	.lead{
+		max-width: 100vw;
+	}
 }
