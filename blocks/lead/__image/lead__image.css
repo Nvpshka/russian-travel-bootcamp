@@ -12,6 +12,11 @@
 		padding:0 auto 0 auto;
 	}
 }
+@media (max-width: 942px) {
+	.lead__image{
+		max-width: 100%;
+	}
+}
 @media (max-width: 929px) {
 	.lead__image{
 		max-width: 100%;
