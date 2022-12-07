@@ -21,7 +21,7 @@
 		gap:14px;
 	}
 }
-@media (max-width: 929px) {
+@media (max-width: 975px) {
 	.photo-grid{
 		max-width: calc(100% - 24px * 2);
 		grid-template-rows:repeat(6, 1fr);
@@ -37,7 +37,7 @@
 		margin-top: 88px;
 	}
 }
-@media (max-width: 718px) {
+@media (max-width: 742px) {
 	.photo-grid{
 		max-width: calc(100% - 16px * 2);
 		grid-template-rows:repeat(9, 1fr);

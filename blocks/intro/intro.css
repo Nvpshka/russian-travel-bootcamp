@@ -1,10 +1,9 @@
 .intro{
-	max-width:100%;
+	max-width: calc(100em - 442px - 148px);
+	align-self: start;
 	padding-left: 148px;
-	padding-right: 442px;
-	margin:0;
 }
-@media (max-width: 1183px) {
+@media (max-width: 1200px) {
 	.intro{
 		max-width: 100%;
 	}
