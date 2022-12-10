@@ -3,29 +3,23 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 163%;
-	max-width: calc(100em - 148px);
+	max-width: calc(100% - 148px);
 	margin:0;
 	padding: 0;
 }
 @media (max-width: 1024px) {
 	.place__paragraphs{
-		max-width: calc(100% - 48px);
+		max-width: 100%;
 	}
 }
 @media (max-width: 768px) {
 	.place__paragraphs{
-		font-size: 16px;
-		max-width:  calc(100% - 24px);
+		max-width: 100%;
 	}
 }
 @media (max-width: 357px) {
 	.place__paragraphs{
-		font-size: 16px;
-		max-width:  calc(90em - 16px);
-	}
-}
-@media (max-width: 320px) {
-	.place__paragraphs{
 		max-width: 100%;
-	}
+		padding-left:16px;
+		padding-right: 16px;
 }

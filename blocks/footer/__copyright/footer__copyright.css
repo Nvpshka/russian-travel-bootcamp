@@ -1,12 +1,19 @@
 .footer__copyright{
+	display: flex;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 16px;
 	margin:0;
 }
-@media (max-width: 320px){
+@media (max-height: 1024px) {
+	.footer__copyright{
+		margin-right: 48px;
+	}
+}
+@media (max-width: 757px){
 	.footer__copyright{
 		line-height: 14px;
+		margin-top: 44px;
 	}
 }

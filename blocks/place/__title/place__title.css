@@ -5,6 +5,7 @@
 	line-height: 76px;
 	max-width: calc(100% - 148px);
 	margin:0;
+	align-self: end;
 }
 @media (max-width: 768px) {
 	.place__title{
@@ -16,6 +17,8 @@
 	.place__title{
 		font-size: 32px;
 		line-height: 35px;
-		max-width: calc(100% - 16px * 2);
+		max-width: calc(100%);
+		padding-left:16px;
+		padding-right: 16px;
 	}
 }

@@ -4,11 +4,7 @@
 	align-items: center;
 	justify-content: center;
 	max-width: calc(100% - 148px * 2);
-}
-@media (max-width: 1183px) {
-	.lead{
-		max-width: calc(100% - 148px * 2);
-	}
+	margin-top: 56px;
 }
 @media (max-width: 1024px) {
 	.lead{
@@ -16,11 +12,6 @@
 	}
 }
 @media (max-width: 768px) {
-	.lead{
-		max-width: 100%;
-	}
-}
-@media (max-width: 320px) {
 	.lead{
 		max-width: 100%;
 	}

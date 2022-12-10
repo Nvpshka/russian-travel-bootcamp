@@ -2,14 +2,13 @@
 	max-width: calc(100em - 148px * 2);
 	max-height: 615px;
 	align-self: center;
-	padding:0 auto 0 auto;
-	object-fit:contain;
+	margin:0 auto;
+	object-fit:cover;
 }
 @media (max-width: 1024px) {
 	.lead__image{
-		max-width: calc(100em - 48px * 2);
+		max-width: 100%;
 		max-height: 580px;
-		padding:0 auto 0 auto;
 	}
 }
 @media (max-width: 942px) {
@@ -17,22 +16,16 @@
 		max-width: 100%;
 	}
 }
-@media (max-width: 929px) {
-	.lead__image{
-		max-width: 100%;
-	}
-}
 @media (max-width: 768px) {
 	.lead__image{
-		max-width: 100%;
 		max-height: 480px;
-		padding:0 auto 0 auto;
 	}
 }
 @media (max-width: 320px) {
 	.lead__image{
-		max-width: 100%;
 		max-height: 200px;
-		padding:0 auto 0 auto;
 	}
+}
+figure{
+	margin:0 ;
 }

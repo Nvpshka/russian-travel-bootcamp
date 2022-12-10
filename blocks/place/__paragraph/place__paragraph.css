@@ -6,8 +6,8 @@
 .place__paragraph:nth-child(2){
 	margin-bottom: 0;
 }
-.place:last-child{
-	margin-bottom: 92px;
+.place__paragraph:last-child{
+	margin-bottom: 0;
 }
 @media (max-width: 768px) {
 	.place:last-child{
