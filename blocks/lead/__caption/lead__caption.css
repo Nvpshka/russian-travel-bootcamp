@@ -7,11 +7,6 @@
 	text-transform: uppercase;
 	margin:8px auto 92px 0;
 }
-/*@media (max-width: 1024px) {
-	.lead__caption{
-		margin-left:48px;
-	}
-}*/
 @media (max-width: 768px) {
 	.lead__caption{
 		margin:8px auto 88px 24px;

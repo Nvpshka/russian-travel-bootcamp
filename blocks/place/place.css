@@ -22,6 +22,9 @@
 		gap: 48px 28px;
 		margin-bottom: 73px;
 	}
+	.place:last-child{
+		margin-bottom: 90px;
+	}
 }
 @media (max-width: 650px) {
 	.place{
@@ -33,5 +36,8 @@
 @media (max-width: 367px) {
 	.place{
 		margin-bottom: 50px;
+	}
+	.place:last-child{
+		margin-bottom: 66px;
 	}
 }

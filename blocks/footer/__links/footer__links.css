@@ -3,7 +3,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	}
-@media (max-width: 400px) {
+@media (max-width: 510px) {
 	.footer__links{
 		flex-direction: column;
 	}

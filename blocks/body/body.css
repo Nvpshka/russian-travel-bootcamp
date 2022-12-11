@@ -5,8 +5,3 @@
 	margin-right: auto;
 	margin-left: auto;
 }
-@media (max-width: 1183px) {
-	.lead{
-		max-width: 100em;
-	}
-}

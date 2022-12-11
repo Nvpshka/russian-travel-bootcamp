@@ -2,24 +2,19 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
-	line-height: 163%;
-	max-width: calc(100% - 148px);
+	line-height: 29.34px;
+	max-width: 100%;
 	margin:0;
 	padding: 0;
 }
-@media (max-width: 1024px) {
-	.place__paragraphs{
-		max-width: 100%;
-	}
-}
 @media (max-width: 768px) {
 	.place__paragraphs{
-		max-width: 100%;
+		font-size: 16px;
+		line-height: 26.08px;
 	}
 }
 @media (max-width: 357px) {
 	.place__paragraphs{
-		max-width: 100%;
 		padding-left:16px;
 		padding-right: 16px;
 	}

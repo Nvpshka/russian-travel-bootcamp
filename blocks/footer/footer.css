@@ -16,7 +16,12 @@
 		min-width: calc(100% - 24px * 2);
 	}
 }
-@media (max-width: 320px) {
+@media (max-width: 693px) {
+	.footer{
+		justify-content: center;
+	}
+}
+@media (max-width: 510px) {
 	.footer{
 		flex-direction: column;
 		min-width: calc(100% - 16px - 118px);

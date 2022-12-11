@@ -1,5 +1,6 @@
 .footer__copyright{
 	display: flex;
+	flex-direction: column;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -11,9 +12,15 @@
 		margin-right: 48px;
 	}
 }
-@media (max-width: 757px){
+@media (max-width: 768px){
 	.footer__copyright{
+		margin-right: 24px;
 		line-height: 14px;
-		margin-top: 44px;
+		margin-top: 0;
+	}
+}
+@media (max-width: 693px) {
+	.footer__copyright{
+		margin-top:48px;
 	}
 }

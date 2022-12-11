@@ -9,11 +9,6 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-@media (max-width: 1024px) {
-	.header{
-		/*margin-bottom: 48px;*/
-	}
-}
 @media (max-width: 768px) {
 	.header{
 		max-width: calc(100% - 24px * 2);

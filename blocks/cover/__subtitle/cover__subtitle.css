@@ -4,30 +4,15 @@
 	font-size: 18px;
 	line-height: 22px;
 	text-align: center;
-	max-width: calc(100% - 412px * 2);
+	max-width: 360px;
+/*	max-width: calc(100% - 412px * 2);*/
 	position: relative;
-	padding: 0 412px 245px 412px;
+	/*padding: 0 412px 0 412px;*/
 	z-index:3;
-}
-@media (max-width: 1024px) {
-	.cover__subtitle{
-		padding:0 332px 195px 332px;
-		max-width: calc(100% - 332px * 2);
-		padding-bottom: 195px;
-	}
-}
-@media (max-width: 800px) {
-	.cover__subtitle{
-		padding:0 204px 115px 204px;
-		max-width: calc(100% - 204px * 2);
-		padding-bottom: 115px;
-	}
+	margin:0;
 }
 @media (max-width: 560px) {
 	.cover__subtitle{
-		max-width: calc(100% - 16px * 2);
-		padding-bottom: 33px;
-		padding:0 16px 33px 16px;
 		font-size: 14px;
 		line-height: 16px;
 	}

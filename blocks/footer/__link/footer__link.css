@@ -15,9 +15,17 @@
 .footer__link:last-child{
 	margin-right: 0;
 }
-@media (max-width: 524px) {
+@media (max-width: 768px) {
+	.footer__link:first-child{
+		margin-left: 24px;
+	}
+}
+@media (max-width: 510px) {
 	.footer__link{
 		margin-bottom: 32px;
+	}
+	.footer__link:first-child{
+		margin-left: 0;
 	}
 }
 @media (max-width: 400px) {
